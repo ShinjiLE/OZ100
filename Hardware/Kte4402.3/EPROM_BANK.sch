@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8447,7 +8447,7 @@ XC167.DEV&lt;br&gt;
 <label x="-15.24" y="-129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MDIS" class="0">
+<net name="!MDIS_INT" class="0">
 <segment>
 <pinref part="IC9" gate="/1" pin="Y"/>
 <wire x1="48.26" y1="-88.9" x2="48.26" y2="-109.22" width="0.1524" layer="91"/>
