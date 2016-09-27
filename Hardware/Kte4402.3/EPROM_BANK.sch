@@ -4946,7 +4946,7 @@ XC167.DEV&lt;br&gt;
 <instance part="IC12" gate="/2" x="88.9" y="132.08"/>
 <instance part="R3" gate="G$1" x="66.04" y="147.32" rot="R90"/>
 <instance part="P+2" gate="1" x="66.04" y="154.94"/>
-<instance part="IC9" gate="/2" x="2.54" y="17.78"/>
+<instance part="IC9" gate="/2" x="2.54" y="17.78" rot="MR180"/>
 <instance part="IC9" gate="/3" x="124.46" y="60.96"/>
 <instance part="GND2" gate="1" x="-10.16" y="7.62"/>
 <instance part="IC14" gate="/1" x="17.78" y="50.8"/>
@@ -6644,8 +6644,8 @@ XC167.DEV&lt;br&gt;
 <segment>
 <pinref part="IC9" gate="/2" pin="A"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-7.62" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="20.32" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="15.24" x2="-10.16" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC9" gate="/1" pin="B"/>
@@ -6876,8 +6876,8 @@ XC167.DEV&lt;br&gt;
 <net name="!RESET" class="0">
 <segment>
 <pinref part="IC9" gate="/2" pin="B"/>
-<wire x1="-7.62" y1="15.24" x2="-35.56" y2="15.24" width="0.1524" layer="91"/>
-<label x="-35.56" y="12.7" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="20.32" x2="-30.48" y2="20.32" width="0.1524" layer="91"/>
+<label x="-30.48" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
